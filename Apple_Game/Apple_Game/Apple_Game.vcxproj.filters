@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="targetver.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
@@ -33,12 +30,27 @@
     <ClInclude Include="std\iDefine.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="game\Game.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="std\iPoint.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Apple_Game.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="std\iStd.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Game.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="glew.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="std\iPoint.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

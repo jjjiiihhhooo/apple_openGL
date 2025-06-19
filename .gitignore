@@ -30,3 +30,36 @@
 *.exe
 *.out
 *.app
+
+# Visual Studio temporary files and build artifacts
+.vs/
+.ipch/
+*.ipch
+*.aps
+*.suo
+*.user
+*.opensdf
+*.sdf
+*.tlog
+*.lastbuildstate
+*.ilk
+*.pdb
+*.obj
+*.idb
+*.log
+*.VC.db
+*.VC.VC.opendb
+
+# Build Output
+Debug/
+Release/
+x64/
+Win32/
+*/bin/
+*/obj/
+
+# Executables and Libraries
+*.exe
+*.dll
+*.lib
+*.exp
