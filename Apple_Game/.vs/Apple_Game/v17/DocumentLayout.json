@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\Apple_Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\Apple_Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 267,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Apple_Game.cpp",
+              "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\Apple_Game.cpp",
+              "RelativeDocumentMoniker": "Apple_Game\\Apple_Game.cpp",
+              "ToolTip": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\Apple_Game.cpp",
+              "RelativeToolTip": "Apple_Game\\Apple_Game.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-19T06:59:56.913Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
