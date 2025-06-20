@@ -51,6 +51,10 @@ struct iPoint;
 struct iSize;
 struct iRect;
 
+typedef void (*METHOD_VOID)();
+typedef void (*METHOD_FLOAT)(float dt);
+typedef void(*METHOD_KEY)(iKeyStat stat, iPoint point);
+
 #define keydown_none 0// 00000000 00000000 00000000 00000000 
 #define keydown_w    1// 00000000 00000000 00000000 00000001 
 #define keydown_a    2// 00000000 00000000 00000000 00000010 

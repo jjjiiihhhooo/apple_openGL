@@ -36,6 +36,15 @@
     <ClInclude Include="std\iPoint.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="std\iRect.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="std\iSize.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="std\iFPS.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Apple_Game.cpp">
@@ -51,6 +60,15 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="std\iPoint.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="std\iRect.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="std\iSize.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="std\iFPS.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

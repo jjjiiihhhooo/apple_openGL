@@ -1,13 +1,14 @@
 ﻿#include "Apple_Game.h"
 
 #include "iStd.h"
+#include "Game.h"
 
 bool runApp;
 LRESULT CALLBACK    WndProc(HWND, UINT, WPARAM, LPARAM);
 int APIENTRY wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, _In_ LPWSTR    lpCmdLine, _In_ int       nCmdShow)
 {
     WCHAR szTitle[32] = L"APPLE_GAME";
-    WCHAR szWindowClass[32] = L"HU";
+    WCHAR szWindowClass[32] = L"AG";
 
     WNDCLASSEXW wcex;
     wcex.cbSize = sizeof(WNDCLASSEX);
@@ -31,7 +32,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance
     ShowWindow(hWnd, nCmdShow);
     UpdateWindow(hWnd);
         
-    loadApp();
+    loadApp(hWnd, loadGame, freeGame, drawGame, keyGame);
 
     MoveWindow(hWnd, x, y, w, h, true);
 
@@ -46,7 +47,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance
         }
         else
         {
-            drawApp(0);
+            drawApp(iFPS::share()->update());
         }
     }
 
@@ -75,6 +76,14 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             return 0;
         }
         break;
+    case WM_LBUTTONDOWN:
+        //keyApp(iKeyStatBegan, )
+        break;
+    case WM_LBUTTONUP:
+        //keyApp(iKeyStatEnded, )
+        break;
+    case WM_MOUSEMOVE:
+        //keyApp(iKeyStatMoved, )
     case WM_DESTROY:
         printf("WM_DESTROY\n");
         PostQuitMessage(0);
