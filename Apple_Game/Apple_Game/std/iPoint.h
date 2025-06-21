@@ -22,4 +22,4 @@ struct iPoint
 };
 
 iPoint iPointMake(float x, float y);
-#define iPointZero iPointMake(0, 0);
+#define iPointZero iPointMake(0, 0)

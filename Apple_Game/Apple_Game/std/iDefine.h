@@ -78,6 +78,13 @@ typedef void(*METHOD_KEY)(iKeyStat stat, iPoint point);
 #define REVERSE_WIDTH	1
 #define REVERSE_HEIGHT	2
 
+struct Texture
+{
+	uint32 texID;
+	int width, height;
+	int potWidth, potHeight;
+	int retainCount;
+};
 
 #if 1
 #define VSNPRINTF _vsnprintf

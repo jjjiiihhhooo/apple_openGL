@@ -132,10 +132,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Apple_Game.h" />
+    <ClInclude Include="game\Apple.h" />
+    <ClInclude Include="game\AppleMenu.h" />
     <ClInclude Include="game\Game.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="std\iArray.h" />
     <ClInclude Include="std\iDefine.h" />
     <ClInclude Include="std\iFPS.h" />
+    <ClInclude Include="std\iImage.h" />
     <ClInclude Include="std\iPoint.h" />
     <ClInclude Include="std\iRect.h" />
     <ClInclude Include="std\iSize.h" />
@@ -144,9 +148,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Apple_Game.cpp" />
+    <ClCompile Include="game\Apple.cpp" />
+    <ClCompile Include="game\AppleMenu.cpp" />
     <ClCompile Include="game\Game.cpp" />
     <ClCompile Include="glew.c" />
+    <ClCompile Include="std\iArray.cpp" />
     <ClCompile Include="std\iFPS.cpp" />
+    <ClCompile Include="std\iImage.cpp" />
     <ClCompile Include="std\iPoint.cpp" />
     <ClCompile Include="std\iRect.cpp" />
     <ClCompile Include="std\iSize.cpp" />

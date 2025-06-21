@@ -45,6 +45,18 @@
     <ClInclude Include="std\iFPS.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="game\AppleMenu.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="std\iImage.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="std\iArray.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Apple.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Apple_Game.cpp">
@@ -69,6 +81,18 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="std\iFPS.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="game\AppleMenu.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="std\iImage.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="std\iArray.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Apple.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
