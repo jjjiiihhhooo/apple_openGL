@@ -85,6 +85,17 @@ struct Texture
 	int potWidth, potHeight;
 	int retainCount;
 };
+enum TextureWrap
+{
+	TextureWrapClamp = 0,
+	TextureWrapRepeat,
+};
+
+enum TextureFilter
+{
+	TextureFilterLinear = 1,
+	TextureFilterNearest
+};
 
 #if 1
 #define VSNPRINTF _vsnprintf

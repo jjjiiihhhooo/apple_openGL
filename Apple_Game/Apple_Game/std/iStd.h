@@ -5,9 +5,16 @@
 #include "iPoint.h"
 #include "iSize.h"
 #include "iRect.h"
+#include "iColor.h"
+#include "iString.h"
 #include "iImage.h"
+#include "iStrTex.h"
+#include "iGraphics.h"
+
+#include "iOpenGL.h"
 #include "iFPS.h"
 
+extern int keydown, keystat;
 extern iSize devSize;
 extern iRect viewport;
 
@@ -34,6 +41,10 @@ uint32 nextPot(uint32 x);
 uint8* bmp2rgba(Bitmap* bmp, int& width, int& height);
 Texture* createImageWithRGBA(uint8* rgba, int width, int height);
 
+void setImage(TextureWrap w, TextureFilter f);
+void applyImage();
+void setImage(Texture* tex, TextureWrap w, TextureFilter f);
+
 Texture* createImage(const char* szFormat, ...);
 Texture** createImage(int wNum, int hNum, const char* szFormat, ...);
 void freeImage(Texture* tex);
@@ -59,6 +70,15 @@ char* utf16_to_utf8(const wchar_t* wStr);
 
 #define rad2deg(r) ((r) * 180 / M_PI)
 #define deg2rad(d) ((d) * M_PI / 180)
+
+float linear(float s, float e, float rate);
+iPoint linear(iPoint s, iPoint e, float rate);
+
+float easeIn(float s, float e, float rate);
+iPoint easeIn(iPoint s, iPoint e, float rate);
+
+float easeOut(float s, float e, float rate);
+iPoint easeOut(iPoint s, iPoint e, float rate);
 
 float clamp(float f, float min, float max);
 

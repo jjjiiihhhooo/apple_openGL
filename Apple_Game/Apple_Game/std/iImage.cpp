@@ -32,6 +32,7 @@ void iImage::paint(float dt, iPoint position, float degree)
 {
 	tex = (Texture*)array->at(index);
 	iPoint p = this->position * rate + position;
+	drawImage(tex, p.x, p.y, 0, 0, tex->width, tex->height, rate, rate, 2, degree, anc, reverse);
 }
 
 iRect iImage::touchRect(iPoint position)

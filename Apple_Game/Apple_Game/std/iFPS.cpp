@@ -2,6 +2,7 @@
 #include "iFPS.h"
 
 #include "Windows.h"
+#include "iGraphics.h"
 
 iFPS::iFPS()
 {
@@ -13,6 +14,7 @@ iFPS::~iFPS()
 
 }
 
+
 iFPS* iFPS::share()
 {
 #if 0
@@ -23,6 +25,8 @@ iFPS* iFPS::share()
 	return &instance;
 #endif
 }
+
+
 
 float iFPS::update()
 {

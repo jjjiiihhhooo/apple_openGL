@@ -137,13 +137,19 @@
     <ClInclude Include="game\Game.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="std\iArray.h" />
+    <ClInclude Include="std\iColor.h" />
     <ClInclude Include="std\iDefine.h" />
     <ClInclude Include="std\iFPS.h" />
+    <ClInclude Include="std\iGraphics.h" />
     <ClInclude Include="std\iImage.h" />
+    <ClInclude Include="std\iOpenGL.h" />
     <ClInclude Include="std\iPoint.h" />
     <ClInclude Include="std\iRect.h" />
+    <ClInclude Include="std\iShader.h" />
     <ClInclude Include="std\iSize.h" />
     <ClInclude Include="std\iStd.h" />
+    <ClInclude Include="std\iString.h" />
+    <ClInclude Include="std\iStrTex.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
@@ -153,12 +159,18 @@
     <ClCompile Include="game\Game.cpp" />
     <ClCompile Include="glew.c" />
     <ClCompile Include="std\iArray.cpp" />
+    <ClCompile Include="std\iColor.cpp" />
     <ClCompile Include="std\iFPS.cpp" />
+    <ClCompile Include="std\iGraphics.cpp" />
     <ClCompile Include="std\iImage.cpp" />
+    <ClCompile Include="std\iOpenGL.cpp" />
     <ClCompile Include="std\iPoint.cpp" />
     <ClCompile Include="std\iRect.cpp" />
+    <ClCompile Include="std\iShader.cpp" />
     <ClCompile Include="std\iSize.cpp" />
     <ClCompile Include="std\iStd.cpp" />
+    <ClCompile Include="std\iString.cpp" />
+    <ClCompile Include="std\iStrTex.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Apple_Game.rc" />

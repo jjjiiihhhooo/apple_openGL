@@ -12,4 +12,4 @@ enum GameState
 	GameStateMenu, GameStateProc, GameStateResult
 };
 
-extern GameState gameState
+extern GameState gameState;
