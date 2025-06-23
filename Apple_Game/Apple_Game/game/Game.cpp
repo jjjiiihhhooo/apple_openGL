@@ -1,23 +1,23 @@
 #include "Game.h"
 
-#include "AppleMenu.h"
+#include "Apple.h"
 
 void loadGame()
 {
-	loadAppleMenu();
+	loadApple();
 }
 
 void freeGame()
 {
-	freeAppleMenu();
+	freeApple();
 }
 
 void drawGame(float dt)
 {
-	drawAppleMenu(dt);
+	drawApple(dt);
 }
 
 void keyGame(iKeyStat stat, iPoint point)
 {
-	keyAppleMenu(stat, point);
+	keyApple(stat, point);
 }

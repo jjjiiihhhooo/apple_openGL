@@ -134,6 +134,7 @@
     <ClInclude Include="Apple_Game.h" />
     <ClInclude Include="game\Apple.h" />
     <ClInclude Include="game\AppleMenu.h" />
+    <ClInclude Include="game\AppleProc.h" />
     <ClInclude Include="game\Game.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="std\iArray.h" />
@@ -156,6 +157,7 @@
     <ClCompile Include="Apple_Game.cpp" />
     <ClCompile Include="game\Apple.cpp" />
     <ClCompile Include="game\AppleMenu.cpp" />
+    <ClCompile Include="game\AppleProc.cpp" />
     <ClCompile Include="game\Game.cpp" />
     <ClCompile Include="glew.c" />
     <ClCompile Include="std\iArray.cpp" />

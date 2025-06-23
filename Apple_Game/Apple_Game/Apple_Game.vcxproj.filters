@@ -75,6 +75,9 @@
     <ClInclude Include="std\iColor.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="game\AppleProc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Apple_Game.cpp">
@@ -129,6 +132,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="std\iColor.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="game\AppleProc.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
