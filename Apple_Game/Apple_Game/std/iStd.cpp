@@ -132,8 +132,10 @@ void drawLine(float x0, float y0, float x1, float y1)
 	uint32 vID = glGetUniformLocation(programID, "viewMatrix");
 	glUniformMatrix4fv(vID, 1, false, (float*)&viewMatrix);
 	
-	glUniform2f(glGetUniformLocation(programID, "u_start"), x0, y0);
-	glUniform2f(glGetUniformLocation(programID, "u_end"), x1, y1);
+	
+
+	glUniform2f(glGetUniformLocation(programID, "u_start"), x0, devSize.height - y0);
+	glUniform2f(glGetUniformLocation(programID, "u_end"), x1, devSize.height - y1);
 	glUniform1f(glGetUniformLocation(programID, "u_width"), lineWidth);
 	glUniform4f(glGetUniformLocation(programID, "u_color"), _r, _g, _b, _a);
 
@@ -169,33 +171,41 @@ void fillRect(float x, float y, float width, float height, float radius)
 	glUseProgram(programID);
 
 	float position[] = {
-		x, y,			0, 1,	x + width, y,			0, 1,
-		x, y + height,	0, 1,	x + width, y + height,	0, 1,
+		x, y,          0, 1,   x + width, y,          0, 1,
+		x, y + height, 0, 1,   x + width, y + height, 0, 1,
 	};
 	glm::mat4 projMatrix = glm::ortho(0.0f, devSize.width, devSize.height, 0.0f, -1000.0f, 1000.0f);
 	glm::mat4 viewMatrix(1.0f);
 
-	glBindBuffer(GL_ARRAY_BUFFER, vbo);
+	glBindBuffer(GL_ARRAY_BUFFER, vbo);// 1
 	glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(float) * 16, position);
 	uint32 pAttr = glGetAttribLocation(programID, "position");
-	glEnableVertexAttribArray(pAttr);
+	glEnableVertexAttribArray(pAttr);// 2
 	glVertexAttribPointer(pAttr, 4, GL_FLOAT, GL_FALSE, 4 * sizeof(float), (const void*)0);
 
 	uint32 pID = glGetUniformLocation(programID, "projMatrix");
 	glUniformMatrix4fv(pID, 1, false, (float*)&projMatrix);
 	uint32 vID = glGetUniformLocation(programID, "viewMatrix");
-	glUniformMatrix4fv(pID, 1, false, (float*)&viewMatrix);
-	
+	glUniformMatrix4fv(vID, 1, false, (float*)&viewMatrix);
+
+	// x, y, width, height in 640x480
+	//float r = viewport.size.width / devSize.width;
+	//x = viewport.origin.x + x * r;
+	y = devSize.height - y;
+	//y = viewport.origin.y + y * r;
+	//width *= r;
+	//height *= r;
+	//radius *= r;
 	glUniform4f(glGetUniformLocation(programID, "u_rect"), x + width / 2, y + height / 2, width / 2, height / 2);
 	glUniform4f(glGetUniformLocation(programID, "u_color"), _r, _g, _b, _a);
 	glUniform1f(glGetUniformLocation(programID, "u_radius"), radius);
 
-	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, vbe);
+	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, vbe);// 3
 	glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_BYTE, 0);
-	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
+	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);// 3
 
-	glDisableVertexAttribArray(pAttr);
-	glBindBuffer(GL_ARRAY_BUFFER, 0);
+	glDisableVertexAttribArray(pAttr);// 2
+	glBindBuffer(GL_ARRAY_BUFFER, 0);// 1
 }
 
 void fillRect(iRect rt, float radius)
@@ -478,8 +488,8 @@ void drawImage(Texture* tex, float x, float y, int sx, int sy, int sw, int sh, f
 		sx / pw, sy / ph,         (sx + sw) / pw, sy / ph,
 		sx / pw, (sy + sh) / ph,  (sx + sw) / pw, (sy + sh) / ph,
 	};
-
 	float color[] = {
+
 		_r, _g, _b, _a,     _r, _g, _b, _a,
 		_r, _g, _b, _a,     _r, _g, _b, _a,
 	};

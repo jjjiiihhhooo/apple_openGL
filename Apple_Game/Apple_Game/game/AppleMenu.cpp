@@ -4,6 +4,8 @@
 #include "AppleProc.h"
 
 iImage** imgMenuBtn;
+
+Texture* MenuBgTex;
 Texture* exTex;
 
 int selectedMenuBtn;
@@ -14,15 +16,15 @@ void loadAppleMenu()
 	exOpen = false;
 	iGraphics* g = iGraphics::share();
 	setStringName("assets/CRRegular.ttf");
-	setStringSize(25);
+	setStringSize(16);
 	setStringRGBA(1, 1, 1, 1);
 	setRGBA(1, 1, 1, 1);
 
-	iSize size = iSizeMake(600, 250);
+	iSize size = iSizeMake(500, 250);
 	g->init(size.width, size.height);
 	g->fillRect(0, 0, size.width, size.height);
 
-	setRGBA(0.2f, 0.2f, 0.2f, 1);
+	setRGBA(1, 0.278f, 0.298f, 1);
 	g->fillRect(0, 0, size.width, size.height);
 	setRGBA(1, 1, 1, 1);
 	g->drawRect(2, 2, size.width - 5, size.height - 5);
@@ -34,10 +36,6 @@ void loadAppleMenu()
 		"4. 제한 시간 안에 최대한 많은 사과를 없애면 됩니다."
 	};
 
-	setStringName("assets/CRRegular.ttf");
-	setStringSize(20);
-	setStringRGBA(1, 1, 1, 1);
-
 	for (int i = 0; i < 4; i++)
 		g->drawString(10, 40 + (i * 50), TOP | LEFT, ss[i]);
 
@@ -47,7 +45,7 @@ void loadAppleMenu()
 	const char* strBtn[] = { "게임 방법", "게임 시작" };
 	imgMenuBtn = new iImage * [2];
 	size = iSizeMake(130, 60);
-	setStringRGBA(0, 0, 0, 1);
+	setStringSize(20);
 	for (int i = 0; i < 2; i++)
 	{
 		iImage* img = new iImage();
@@ -57,27 +55,28 @@ void loadAppleMenu()
 			if (j == 0)
 			{
 				setStringRGBA(1, 1, 1, 1);
-				setRGBA(0.2f, 0.2f, 0.2f, 1);
+				setRGBA(1, 0.278f, 0.298f, 1);
 				g->fillRect(0, 0, size.width, size.height);
 				setRGBA(1, 1, 1, 1);
 				g->drawRect(2, 2, size.width - 5, size.height - 5);
 			}
 			else
 			{
-				setStringRGBA(0, 0, 0, 1);
-				setRGBA(1, 1, 1, 1);
+				setStringRGBA(1, 1, 1, 1);
+				setRGBA(1, 0.647f, 0, 1);
 				g->fillRect(5, 5, size.width - 10, size.height - 10);
-				setRGBA(0, 0, 0, 1);
+				setRGBA(1, 1, 1, 1);
 				g->drawRect(7, 7, size.width - 15, size.height - 15);
 			}
 			g->drawString(size.width / 2, size.height / 2, VCENTER | HCENTER, strBtn[i]);
 
 			Texture* tex = g->getTexture();
+
 			img->add(tex);
 			g->clean();
+			freeImage(tex);
 		}
-
-		img->position = iPointMake((devSize.width - ((size.width * 2) + 20)) / 2 + (size.width + 20) * i, devSize.height - size.height - 100);
+		img->position = iPointMake((devSize.width - ((size.width * 2) + 20)) / 2 + (size.width + 20) * i, devSize.height - size.height - 60);
 		imgMenuBtn[i] = img;
 	}
 
@@ -94,10 +93,16 @@ void freeAppleMenu()
 
 void drawAppleMenu(float dt)
 {
-	setRGBA(0, 0, 0, 1);
-	clear();
 	setRGBA(1, 1, 1, 1);
+	clear();
 
+	setRGBA(0, 1, 0, 1);
+	fillRect(20, 20, devSize.width - 40, devSize.height - 40);
+	setRGBA(1, 1, 1, 0.6f);
+	fillRect(25, 25, devSize.width - 50, devSize.height - 50);
+	
+
+	setRGBA(1, 1, 1, 1);
 	for (int i = 0; i < 2; i++)
 	{
 		imgMenuBtn[i]->index = (i == selectedMenuBtn);
@@ -105,7 +110,7 @@ void drawAppleMenu(float dt)
 	}
 	
 	if (exOpen)
-		drawImage(exTex, devSize.width / 2, (devSize.height / 2) - 70, VCENTER | HCENTER);
+		drawImage(exTex, devSize.width / 2, (devSize.height / 2) - 50, VCENTER | HCENTER);
 }
 
 void keyAppleMenu(iKeyStat stat, iPoint point)

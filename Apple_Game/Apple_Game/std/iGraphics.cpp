@@ -122,12 +122,7 @@ void iGraphics::drawImage(Texture* tex, float x, float y, int anc)
 
 void iGraphics::drawImage(Texture* tex, float x, float y, int sx, int sy, int sw, int sh, float rateX, float rateY, int xyz, float degree, int anc, int reverse)
 {
-#if 0
-	Graphics* bk = getGraphics();
-	setGraphics(g);
-	::drawImage(tex, x, y, sx, sy, sw, sh, rateX, rateY, xyz, degree, anc, reverse);
-	setGraphics(bk);
-#endif
+
 }
 
 void iGraphics::drawString(float x, float y, int anc, const char* szFormat, ...)

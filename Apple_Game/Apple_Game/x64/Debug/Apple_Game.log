@@ -1,17 +1,21 @@
 ﻿  AppleProc.cpp
-D:\VSProject\apple_openGL\Apple_Game\Apple_Game\game\AppleProc.cpp(12,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\VSProject\apple_openGL\Apple_Game\Apple_Game\game\AppleProc.cpp(27,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\VSProject\apple_openGL\Apple_Game\Apple_Game\game\AppleProc.cpp(27,15): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\VSProject\apple_openGL\Apple_Game\Apple_Game\game\AppleProc.cpp(54,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\VSProject\apple_openGL\Apple_Game\Apple_Game\game\AppleProc.cpp(54,15): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\VSProject\apple_openGL\Apple_Game\Apple_Game\game\AppleProc.cpp(94,41): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\VSProject\apple_openGL\Apple_Game\Apple_Game\game\AppleProc.cpp(94,38): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\VSProject\apple_openGL\Apple_Game\Apple_Game\game\AppleProc.cpp(98,23): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\VSProject\apple_openGL\Apple_Game\Apple_Game\game\AppleProc.cpp(98,15): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\VSProject\apple_openGL\Apple_Game\Apple_Game\game\AppleProc.cpp(101,37): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\VSProject\apple_openGL\Apple_Game\Apple_Game\game\AppleProc.cpp(101,34): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(12,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(54,16): warning C4244: '*=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(55,17): warning C4244: '*=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(56,19): warning C4244: '*=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(57,20): warning C4244: '*=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(67,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(67,15): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(116,39): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(116,36): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(118,37): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(118,34): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(138,9): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(140,9): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(159,10): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(161,10): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 LINK : warning LNK4044: '/utf-8' 옵션을 인식할 수 없습니다. 무시됩니다.
-     D:\VSProject\apple_openGL\Apple_Game\x64\Debug\Apple_Game.lib 라이브러리 및 D:\VSProject\apple_openGL\Apple_Game\x64\Debug\Apple_Game.exp 개체를 생성하고 있습니다.
+     D:\JIHO\Apple\Apple\Apple_Game\x64\Debug\Apple_Game.lib 라이브러리 및 D:\JIHO\Apple\Apple\Apple_Game\x64\Debug\Apple_Game.exp 개체를 생성하고 있습니다.
 LINK : warning LNK4217: 'glewInit'에 정의된 'glew.obj' 기호를 함수 'iOpenGL.obj'에서 '"void __cdecl loadOpenGL(struct HWND__ *)" (?loadOpenGL@@YAXPEAUHWND__@@@Z)'이(가) 가져왔습니다.
 LINK : warning LNK4217: 'wglewIsSupported'에 정의된 'glew.obj' 기호를 함수 'iOpenGL.obj'에서 '"void __cdecl loadOpenGL(struct HWND__ *)" (?loadOpenGL@@YAXPEAUHWND__@@@Z)'이(가) 가져왔습니다.
 LINK : warning LNK4217: '__glewBlendFuncSeparate'에 정의된 'glew.obj' 기호를 함수 'iOpenGL.obj'에서 '"void __cdecl loadOpenGL(struct HWND__ *)" (?loadOpenGL@@YAXPEAUHWND__@@@Z)'이(가) 가져왔습니다.
@@ -62,4 +66,4 @@ LINK : warning LNK4217: '__glewUniform4f'에 정의된 'glew.obj' 기호를 함�
 LINK : warning LNK4217: '__glewUniformMatrix4fv'에 정의된 'glew.obj' 기호를 함수 'iStd.obj'에서 '"void __cdecl drawImage(struct Texture *,float,float,int,int,int,int,float,float,int,float,int,int)" (?drawImage@@YAXPEAUTexture@@MMHHHHMMHMHH@Z)'이(가) 가져왔습니다.
 LINK : warning LNK4217: '__glewUseProgram'에 정의된 'glew.obj' 기호를 함수 'iStd.obj'에서 '"void __cdecl drawImage(struct Texture *,float,float,int,int,int,int,float,float,int,float,int,int)" (?drawImage@@YAXPEAUTexture@@MMHHHHMMHMHH@Z)'이(가) 가져왔습니다.
 LINK : warning LNK4217: '__glewVertexAttribPointer'에 정의된 'glew.obj' 기호를 함수 'iStd.obj'에서 '"void __cdecl drawImage(struct Texture *,float,float,int,int,int,int,float,float,int,float,int,int)" (?drawImage@@YAXPEAUTexture@@MMHHHHMMHMHH@Z)'이(가) 가져왔습니다.
-  Apple_Game.vcxproj -> D:\VSProject\apple_openGL\Apple_Game\x64\Debug\Apple_Game.exe
+  Apple_Game.vcxproj -> D:\JIHO\Apple\Apple\Apple_Game\x64\Debug\Apple_Game.exe
