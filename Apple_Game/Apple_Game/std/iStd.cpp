@@ -160,6 +160,14 @@ void drawRect(float x, float y, float width, float height, float radius)
 	drawLine(x + width, y, x + width, y + height);
 }
 
+void _drawRect(float x, float y, float _x, float _y)
+{
+	drawLine(x, y, _x, y);
+	drawLine(x, y, x, _y);
+	drawLine(x, _y, _x, _y);
+	drawLine(_x, y, _x, _y);
+}
+
 void drawRect(iRect rt, float radius)
 {
 	drawRect(rt.origin.x, rt.origin.y, rt.size.width, rt.size.height, radius);

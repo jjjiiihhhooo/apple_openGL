@@ -5,6 +5,12 @@
 struct Apple
 {
 	int num;
+	float plusX;
+	float plusY;
+	float xRate;
+	float yRate;
+	float xV;
+	float yV;
 	bool exist;
 	bool selected;
 };

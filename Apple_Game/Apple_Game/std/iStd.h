@@ -33,6 +33,7 @@ void drawLine(float x0, float y0, float x1, float y1);
 void drawLine(iPoint p0, iPoint p1);
 
 void drawRect(float x, float y, float width, float height, float radius = 0.0f);
+void _drawRect(float x, float y, float _x, float _y);
 void drawRect(iRect rt, float radius = 0.0f);
 void fillRect(float x, float y, float width, float height, float radius = 0.0f);
 void fillRect(iRect rt, float radius = 0.0f);
