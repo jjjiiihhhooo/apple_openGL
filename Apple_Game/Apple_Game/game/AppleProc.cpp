@@ -6,6 +6,7 @@ iImage* appleBgImg;
 Texture** texAppleNum;
 
 bool dragApple = false;
+float playTime;
 int sx = -1, sy = -1;
 int ex = -1, ey = -1;
 
@@ -14,6 +15,7 @@ int ex = -1, ey = -1;
 //====================================================
 void loadAppleProc()
 {
+	playTime = 120;
 	srand(time(NULL));
 	apple = new Apple[170];
 	for (int i = 0; i < 170; i++)
@@ -110,11 +112,12 @@ void drawAppleProc(float dt)
 	setRGBA(1, 1, 1, 1);
 	clear();
 
-	setRGBA(0, 1, 0, 1);
-	fillRect(20, 20, devSize.width - 40, devSize.height - 40);
-	setRGBA(1, 1, 1, 0.6f);
-	fillRect(25, 25, devSize.width - 50, devSize.height - 50);
+	setRGBA(0.333f, 0.933f, 0.58f, 1);
+	fillRect(10, 10, devSize.width - 20, devSize.height - 20);
+	setRGBA(0.9f, 1.0, 0.9f, 1.0);
+	fillRect(30, 30, devSize.width - 60, devSize.height - 60);
 	setRGBA(1, 1, 1, 1);
+
 	for (int i = 0; i < 170; i++)
 	{
 		int x = APPLE_SX + 30 * (i % 17);
@@ -181,12 +184,12 @@ void drawAppleProc(float dt)
 			{
 				a->yRate -= dt * 4;
 				a->plusY += (a->yRate * a->yV);
-
+				/*
 				if (a->plusY + y > devSize.height)
 				{
 					printf("Y = %f\n", a->plusY + y);
 				}
-
+				*/
 				if (a->xRate > 0)
 				{
 					a->xRate -= dt;
@@ -310,7 +313,7 @@ void keyAppleProc(iKeyStat stat, iPoint point)
 					a->selected = false;
 					if (a->num == 10) continue;
 					a->num = 10;
-					n += 1;
+					n += 5;
 				}
 
 				score->add(n);
@@ -333,18 +336,54 @@ void keyAppleProc(iKeyStat stat, iPoint point)
 // ProcUI
 //====================================================
 Number* score;
-
 float takeTime;
+
+iStrTex* sTex;
+
+Texture* methodStUI(const char* s);
+
 void loadAppleProcUI()
 {
+	score = new Number();
+	sTex = new iStrTex(methodStUI);
+	sTex->set("0");
+	takeTime = 0.0f;
 }
 
 void freeAppleProcUI()
 {
+	delete score;
+	delete sTex;
+}
+
+Texture* methodStUI(const char* s)
+{
+	setStringRGBA(0, 1, 0.58f, 1);
+	setStringSize(20);
+
+	iGraphics* g = iGraphics::share();
+
+	g->init(100, 100);
+
+	g->drawString(0, 0, TOP | LEFT, "%d", score->get());
+
+	Texture* tex = g->getTexture();
+	g->clean();
+	return tex;
 }
 
 void drawAppleProcUI(float dt)
 {
+	score->update(dt);
+	setRGBA(0, 1, 0.58f, 1);
+	float r = takeTime / playTime;
+	takeTime += dt;
+	if(takeTime)
+	setLineWidth(2);
+	drawRect(50, devSize.height - 55, 480, 7);
+	fillRect(50, devSize.height - 55, 480 * (1 - r), 7);
+	sTex->paint(550, devSize.height - 60, TOP | LEFT, "%d", score->get());
+	setRGBA(1, 1, 1, 1);
 }
 
 Number::Number()
@@ -361,15 +400,27 @@ Number::~Number()
 
 void Number::update(float dt)
 {
+	if (curr == next)
+		return;
+
+	delta += dt;
+	if (delta >= _delta)
+	{
+		delta = _delta;
+		curr = next;
+	}
 }
 
 int Number::get()
 {
-	return 0;
+	return linear(curr, next, delta / _delta);
 }
 
 void Number::add(int n)
 {
+	curr = get();
+	next += n;
+	delta = 0.0f;
 }
 
 //====================================================

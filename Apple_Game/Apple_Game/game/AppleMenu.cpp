@@ -4,6 +4,7 @@
 #include "AppleProc.h"
 
 iImage** imgMenuBtn;
+iImage* imgLogo;
 
 Texture* MenuBgTex;
 Texture* exTex;
@@ -11,16 +12,44 @@ Texture* exTex;
 int selectedMenuBtn;
 bool exOpen;
 
+Texture* MethodStLogoUI(const char* str);
+
+
 void loadAppleMenu()
 {
 	exOpen = false;
 	iGraphics* g = iGraphics::share();
 	setStringName("assets/CRRegular.ttf");
-	setStringSize(16);
-	setStringRGBA(1, 1, 1, 1);
+
+	imgLogo = new iImage();
+
+	iSize size = iSizeMake(500, 500);
+	g->init(size.width, size.height);
+	setStringSize(50);
+	setStringRGBA(1, 0.278f, 0.298f, 1);
 	setRGBA(1, 1, 1, 1);
 
-	iSize size = iSizeMake(500, 250);
+	Texture* aTex = createImage("assets/apple.png");
+	float r = 100.0f / aTex->width;
+	aTex->width *= r;
+	aTex->height *= r;
+	aTex->potWidth *= r;
+	aTex->potHeight *= r;
+	
+	g->drawString(devSize.width / 2 - 50, devSize.height / 2 - 20, VCENTER | HCENTER, "APPLE GAME");
+		
+	Texture* logoTex = g->getTexture();
+	imgLogo->add(aTex);
+	imgLogo->add(logoTex);
+	//imgLogo->position = iPointMake(devSize.width / 2, devSize.height / 2);
+	g->clean();
+	freeImage(aTex);
+	freeImage(logoTex);
+
+	setStringSize(16);
+	setStringRGBA(1, 1, 1, 1);
+
+	size = iSizeMake(500, 250);
 	g->init(size.width, size.height);
 	g->fillRect(0, 0, size.width, size.height);
 
@@ -85,6 +114,7 @@ void loadAppleMenu()
 
 void freeAppleMenu()
 {
+	delete imgLogo;
 	delete exTex;
 	for (int i = 0; i < 2; i++)
 		delete imgMenuBtn[i];
@@ -96,15 +126,19 @@ void drawAppleMenu(float dt)
 	setRGBA(1, 1, 1, 1);
 	clear();
 
-	setRGBA(0, 1, 0, 1);
-	fillRect(20, 20, devSize.width - 40, devSize.height - 40);
-	setRGBA(1, 1, 1, 0.6f);
-	fillRect(25, 25, devSize.width - 50, devSize.height - 50);
-	
-
+	setRGBA(0.333f, 0.933f, 0.58f, 1);
+	fillRect(10, 10, devSize.width - 20, devSize.height - 20);
+	setRGBA(0.9f, 1.0, 0.9f, 1.0);
+	fillRect(30, 30, devSize.width - 60, devSize.height - 60);
 	setRGBA(1, 1, 1, 1);
+
 	for (int i = 0; i < 2; i++)
 	{
+		imgLogo->index = i;
+		
+		if (i == 0) imgLogo->paint(dt, iPointMake(devSize.width / 2 + 120, devSize.height / 2 - 70), 20.0f);
+		else imgLogo->paint(dt, iPointZero);
+
 		imgMenuBtn[i]->index = (i == selectedMenuBtn);
 		imgMenuBtn[i]->paint(dt, iPointZero);
 	}
