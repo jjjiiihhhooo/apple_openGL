@@ -358,7 +358,7 @@ void freeAppleProcUI()
 
 Texture* methodStUI(const char* s)
 {
-	setStringRGBA(0, 1, 0.58f, 1);
+	setStringRGBA(0, 0, 0, 1);
 	setStringSize(20);
 
 	iGraphics* g = iGraphics::share();
@@ -446,20 +446,56 @@ bool keyAppleSetting(iKeyStat stat, iPoint point)
 //====================================================
 // CountDown
 //====================================================
+iStrTex* stCountDown;
+int numCountDown;
+float deltaCountDown;
+
 void loadAppleCountDown()
 {
+	stCountDown = new iStrTex();
+	numCountDown = 3;
+	deltaCountDown = 0.0f;
 }
 
 void freeAppleCountDown()
 {
+	delete stCountDown;
 }
 
 void drawAppleCountDown(float dt)
 {
+	if (numCountDown == 0) return;
+
+	float cRate = 1 - deltaCountDown;
+	setStringSize(100);
+	setStringRGBA(0, 0, 0, cRate);
+	float rate;
+#if 0
+	if (deltaCountDown < 0.15f) rate = 1.0f;
+	else if (deltaCountDown < 0.85f) rate = 1.0f + 0.5f * sin(deg2rad((deltaCountDown - 0.15f) / 0.7f * 180));
+	else rate = 1.0f;
+#else
+	if (deltaCountDown < 0.15f) rate = 1.0f;
+	else rate = 1.0f + 1.0f * deltaCountDown;
+#endif
+
+	stCountDown->clean();
+	stCountDown->set("%d", numCountDown);
+	stCountDown->paint(devSize.width / 2, devSize.height / 2, VCENTER | HCENTER, rate, rate, 2, 0);
+
+	deltaCountDown += dt;
+	while (deltaCountDown >= 1.0f)
+	{
+		deltaCountDown -= 1.0f;
+		numCountDown--;
+		printf("---------countDown--------\n");
+	}
 }
 
 bool keyAppleCountDown(iKeyStat stat, iPoint point)
 {
+	if (numCountDown)
+		return true;
 	return false;
 }
 

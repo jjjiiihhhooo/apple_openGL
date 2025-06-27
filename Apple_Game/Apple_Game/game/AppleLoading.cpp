@@ -83,7 +83,7 @@ void drawAppleLoading(float dt)
 	//fillRect(0, 0, devSize.width, devSize.height);
 	//setRGBA(1, 1, 1, 1);
 	st->iTime = (1.0f - a) * M_PI / 2;
-	printf("%f\n", st->iTime);
+	
 	st->paint(0.0f);
 }
 

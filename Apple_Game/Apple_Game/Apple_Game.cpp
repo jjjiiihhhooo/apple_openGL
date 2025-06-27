@@ -31,7 +31,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance
         0, 0, 1920, 1080, nullptr, nullptr, hInstance, nullptr);
     ShowWindow(hWnd, nCmdShow);
     UpdateWindow(hWnd);
-        
+    
     loadApp(hWnd, loadGame, freeGame, drawGame, keyGame);
 
     MoveWindow(hWnd, x, y, w, h, true);

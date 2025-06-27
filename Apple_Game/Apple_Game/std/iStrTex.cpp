@@ -21,6 +21,7 @@ void iStrTex::clean()
 	{
 		delete str;
 		str = NULL;
+		strLength = 0;
 	}
 	if (tex)
 	{

@@ -9,7 +9,6 @@ void loadGame()
 	loadApple();
 
 	texGame = iFBO::createImage(devSize.width, devSize.height);
-
 }
 
 void freeGame()
