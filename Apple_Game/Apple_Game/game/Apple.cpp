@@ -1,42 +1,46 @@
 #include "Apple.h"
 
+#include "AppleLoading.h"
 #include "AppleMenu.h"
 #include "AppleProc.h"
 
-GameState gameState;
 
 void loadApple()
 {
-	gameState = GameStateMenu;
 	loadAppleMenu();
+	as = AppleStateMenu;
 }
 
 void freeApple()
 {
-	switch (gameState)
+	switch (as)
 	{
-	case GameStateMenu: freeAppleMenu(); break;
-	case GameStateProc: freeAppleProc(); break;
-	case GameStateResult: break;
+	case AppleStateMenu: freeAppleMenu(); break;
+	case AppleStateProc: freeAppleProc(); break;
+	case AppleStateResult: break;
 	}
 }
 
 void drawApple(float dt)
 {
-	switch (gameState)
+	switch (as)
 	{
-	case GameStateMenu: drawAppleMenu(dt); break;
-	case GameStateProc: drawAppleProc(dt); break;
-	case GameStateResult: break;
+	case AppleStateMenu: drawAppleMenu(dt); break;
+	case AppleStateProc: drawAppleProc(dt); break;
+	case AppleStateResult: break;
 	}
+
+	drawAppleLoading(dt);
 }
 
 void keyApple(iKeyStat stat, iPoint point)
 {
-	switch (gameState)
+	if (keyAppleLoading(stat, point)) return;
+
+	switch (as)
 	{
-	case GameStateMenu: keyAppleMenu(stat, point); break;
-	case GameStateProc: keyAppleProc(stat, point); break;
-	case GameStateResult: break;
+	case AppleStateMenu: keyAppleMenu(stat, point); break;
+	case AppleStateProc: keyAppleProc(stat, point); break;
+	case AppleStateResult: break;
 	}
 }

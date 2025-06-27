@@ -133,6 +133,7 @@
   <ItemGroup>
     <ClInclude Include="Apple_Game.h" />
     <ClInclude Include="game\Apple.h" />
+    <ClInclude Include="game\AppleLoading.h" />
     <ClInclude Include="game\AppleMenu.h" />
     <ClInclude Include="game\AppleProc.h" />
     <ClInclude Include="game\Game.h" />
@@ -146,7 +147,7 @@
     <ClInclude Include="std\iOpenGL.h" />
     <ClInclude Include="std\iPoint.h" />
     <ClInclude Include="std\iRect.h" />
-    <ClInclude Include="std\iShader.h" />
+    <ClInclude Include="std\iShadertoy.h" />
     <ClInclude Include="std\iSize.h" />
     <ClInclude Include="std\iStd.h" />
     <ClInclude Include="std\iString.h" />
@@ -156,6 +157,7 @@
   <ItemGroup>
     <ClCompile Include="Apple_Game.cpp" />
     <ClCompile Include="game\Apple.cpp" />
+    <ClCompile Include="game\AppleLoading.cpp" />
     <ClCompile Include="game\AppleMenu.cpp" />
     <ClCompile Include="game\AppleProc.cpp" />
     <ClCompile Include="game\Game.cpp" />
@@ -168,7 +170,7 @@
     <ClCompile Include="std\iOpenGL.cpp" />
     <ClCompile Include="std\iPoint.cpp" />
     <ClCompile Include="std\iRect.cpp" />
-    <ClCompile Include="std\iShader.cpp" />
+    <ClCompile Include="std\iShadertoy.cpp" />
     <ClCompile Include="std\iSize.cpp" />
     <ClCompile Include="std\iStd.cpp" />
     <ClCompile Include="std\iString.cpp" />

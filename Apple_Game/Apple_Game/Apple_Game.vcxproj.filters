@@ -60,9 +60,6 @@
     <ClInclude Include="std\iGraphics.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="std\iShader.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="std\iOpenGL.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
@@ -76,6 +73,12 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="game\AppleProc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="std\iShadertoy.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="game\AppleLoading.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
@@ -119,9 +122,6 @@
     <ClCompile Include="std\iGraphics.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="std\iShader.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="std\iOpenGL.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -135,6 +135,12 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="game\AppleProc.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="std\iShadertoy.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="game\AppleLoading.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

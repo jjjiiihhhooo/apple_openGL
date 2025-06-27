@@ -3,6 +3,46 @@
   "WorkspaceRootPath": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\game\\AppleLoading.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\game\\AppleLoading.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\game\\AppleLoading.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\game\\AppleLoading.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\game\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\game\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iStd.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\std\\iStd.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iShadertoy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\std\\iShadertoy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\Apple_Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\Apple_Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\assets\\shader\\gdi.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\assets\\shader\\gdi.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\assets\\shader\\fade.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\assets\\shader\\fade.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iOpenGL.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\std\\iOpenGL.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iStd.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\std\\iStd.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\game\\AppleProc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\game\\AppleProc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -11,19 +51,32 @@
       "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\game\\AppleMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iStd.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\std\\iStd.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iShadertoy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\std\\iShadertoy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\game\\Apple.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\game\\Apple.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iOpenGL.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\std\\iOpenGL.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\game\\Apple.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\game\\Apple.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\um\\gdiplusgraphics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iRect.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\std\\iRect.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iOpenGL.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\std\\iOpenGL.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iDefine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\std\\iDefine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iPoint.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\std\\iPoint.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iStrTex.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -50,28 +103,8 @@
       "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\std\\iStrTex.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iDefine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\std\\iDefine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iStd.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\std\\iStd.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\Apple_Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\Apple_Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\game\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\game\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\glew.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\glew.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\game\\Apple.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\game\\Apple.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\game\\AppleMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -114,24 +147,8 @@
       "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\std\\iFPS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iShader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\std\\iShader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iShader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\std\\iShader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iPoint.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\std\\iPoint.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iPoint.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\std\\iPoint.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iRect.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|solutionrelative:Apple_Game\\std\\iRect.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E700C7DF-B36B-4815-836E-7BEE26C8446E}|Apple_Game\\Apple_Game.vcxproj|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iRect.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -153,14 +170,6 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xstring||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\assets\\shader\\rect.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Apple_Game\\assets\\shader\\rect.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\assets\\shader\\gdi.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Apple_Game\\assets\\shader\\gdi.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\assets\\shader\\line.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Apple_Game\\assets\\shader\\line.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
@@ -172,46 +181,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 267,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "gdiplusgraphics.h",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\um\\gdiplusgraphics.h",
-              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\um\\gdiplusgraphics.h",
-              "ViewState": "AgIAAK0DAAAAAAAAAADwv7sDAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-26T07:45:46.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "rect.frag",
-              "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\assets\\shader\\rect.frag",
-              "RelativeDocumentMoniker": "Apple_Game\\assets\\shader\\rect.frag",
-              "ToolTip": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\assets\\shader\\rect.frag",
-              "RelativeToolTip": "Apple_Game\\assets\\shader\\rect.frag",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-24T08:01:17.285Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 6,
               "Title": "gdi.vert",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\assets\\shader\\gdi.vert",
               "RelativeDocumentMoniker": "Apple_Game\\assets\\shader\\gdi.vert",
               "ToolTip": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\assets\\shader\\gdi.vert",
               "RelativeToolTip": "Apple_Game\\assets\\shader\\gdi.vert",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-24T07:25:04.936Z"
+              "WhenOpened": "2025-06-27T06:58:05.87Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 7,
+              "Title": "fade.frag",
+              "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\assets\\shader\\fade.frag",
+              "RelativeDocumentMoniker": "Apple_Game\\assets\\shader\\fade.frag",
+              "ToolTip": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\assets\\shader\\fade.frag",
+              "RelativeToolTip": "Apple_Game\\assets\\shader\\fade.frag",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-27T06:54:09.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppleLoading.h",
+              "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\game\\AppleLoading.h",
+              "RelativeDocumentMoniker": "Apple_Game\\game\\AppleLoading.h",
+              "ToolTip": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\game\\AppleLoading.h",
+              "RelativeToolTip": "Apple_Game\\game\\AppleLoading.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-27T06:04:41.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppleLoading.cpp",
+              "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\game\\AppleLoading.cpp",
+              "RelativeDocumentMoniker": "Apple_Game\\game\\AppleLoading.cpp",
+              "ToolTip": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\game\\AppleLoading.cpp",
+              "RelativeToolTip": "Apple_Game\\game\\AppleLoading.cpp",
+              "ViewState": "AgIAAEUAAAAAAAAAAADgv04AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-27T06:04:40.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "iOpenGL.h",
+              "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iOpenGL.h",
+              "RelativeDocumentMoniker": "Apple_Game\\std\\iOpenGL.h",
+              "ToolTip": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iOpenGL.h",
+              "RelativeToolTip": "Apple_Game\\std\\iOpenGL.h",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-27T05:32:06.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "iShadertoy.cpp",
+              "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iShadertoy.cpp",
+              "RelativeDocumentMoniker": "Apple_Game\\std\\iShadertoy.cpp",
+              "ToolTip": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iShadertoy.cpp",
+              "RelativeToolTip": "Apple_Game\\std\\iShadertoy.cpp",
+              "ViewState": "AgIAAB0AAAAAAAAAAADgv7kAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-27T05:31:37.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "iShadertoy.h",
+              "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iShadertoy.h",
+              "RelativeDocumentMoniker": "Apple_Game\\std\\iShadertoy.h",
+              "ToolTip": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iShadertoy.h",
+              "RelativeToolTip": "Apple_Game\\std\\iShadertoy.h",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-27T05:31:49.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
               "Title": "line.frag",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\assets\\shader\\line.frag",
               "RelativeDocumentMoniker": "Apple_Game\\assets\\shader\\line.frag",
@@ -223,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 21,
               "Title": "iGraphics.cpp",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iGraphics.cpp",
               "RelativeDocumentMoniker": "Apple_Game\\std\\iGraphics.cpp",
@@ -231,25 +296,24 @@
               "RelativeToolTip": "Apple_Game\\std\\iGraphics.cpp",
               "ViewState": "AgIAAHQAAAAAAAAAAAAhwH8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-24T05:41:13.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T05:41:13.871Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "AppleProc.cpp",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\game\\AppleProc.cpp",
               "RelativeDocumentMoniker": "Apple_Game\\game\\AppleProc.cpp",
               "ToolTip": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\game\\AppleProc.cpp",
               "RelativeToolTip": "Apple_Game\\game\\AppleProc.cpp",
-              "ViewState": "AgIAAGgBAAAAAAAAAADgv2IBAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-23T13:08:11.326Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 24,
               "Title": "iStrTex.h",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iStrTex.h",
               "RelativeDocumentMoniker": "Apple_Game\\std\\iStrTex.h",
@@ -257,12 +321,11 @@
               "RelativeToolTip": "Apple_Game\\std\\iStrTex.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-23T07:16:40.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T07:16:40.741Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 19,
               "Title": "iStrTex.cpp",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iStrTex.cpp",
               "RelativeDocumentMoniker": "Apple_Game\\std\\iStrTex.cpp",
@@ -270,12 +333,11 @@
               "RelativeToolTip": "Apple_Game\\std\\iStrTex.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-23T07:16:37.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T07:16:37.884Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "iArray.cpp",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iArray.cpp",
               "RelativeDocumentMoniker": "Apple_Game\\std\\iArray.cpp",
@@ -287,20 +349,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "AppleMenu.cpp",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\game\\AppleMenu.cpp",
               "RelativeDocumentMoniker": "Apple_Game\\game\\AppleMenu.cpp",
               "ToolTip": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\game\\AppleMenu.cpp",
               "RelativeToolTip": "Apple_Game\\game\\AppleMenu.cpp",
-              "ViewState": "AgIAAIoAAAAAAAAAAADgv6gAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-21T04:22:53.859Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "AppleMenu.h",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\game\\AppleMenu.h",
               "RelativeDocumentMoniker": "Apple_Game\\game\\AppleMenu.h",
@@ -312,19 +374,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
               "Title": "iStd.h",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iStd.h",
               "RelativeDocumentMoniker": "Apple_Game\\std\\iStd.h",
               "ToolTip": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iStd.h",
               "RelativeToolTip": "Apple_Game\\std\\iStd.h",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCMAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAArwBAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-19T07:12:26.579Z"
+              "WhenOpened": "2025-06-19T07:12:26.579Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "iFPS.h",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iFPS.h",
               "RelativeDocumentMoniker": "Apple_Game\\std\\iFPS.h",
@@ -336,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 34,
               "Title": "iSize.h",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iSize.h",
               "RelativeDocumentMoniker": "Apple_Game\\std\\iSize.h",
@@ -348,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 35,
               "Title": "iFPS.cpp",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iFPS.cpp",
               "RelativeDocumentMoniker": "Apple_Game\\std\\iFPS.cpp",
@@ -360,57 +423,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 2,
               "Title": "Game.cpp",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\game\\Game.cpp",
               "RelativeDocumentMoniker": "Apple_Game\\game\\Game.cpp",
               "ToolTip": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\game\\Game.cpp",
               "RelativeToolTip": "Apple_Game\\game\\Game.cpp",
-              "ViewState": "AgIAAAcAAAAAAAAAAADgvxYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-19T07:25:27.464Z"
+              "WhenOpened": "2025-06-19T07:25:27.464Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "iStd.cpp",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iStd.cpp",
               "RelativeDocumentMoniker": "Apple_Game\\std\\iStd.cpp",
               "ToolTip": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iStd.cpp",
               "RelativeToolTip": "Apple_Game\\std\\iStd.cpp",
-              "ViewState": "AgIAAL8CAAAAAAAAAADgv88CAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-19T07:12:17.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "iOpenGL.cpp",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iOpenGL.cpp",
               "RelativeDocumentMoniker": "Apple_Game\\std\\iOpenGL.cpp",
               "ToolTip": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iOpenGL.cpp",
               "RelativeToolTip": "Apple_Game\\std\\iOpenGL.cpp",
-              "ViewState": "AgIAAI0AAAAAAAAAAADgv4YAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMBAAAAAAAAAADgvx0BAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-23T06:27:30.268Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 5,
               "Title": "Apple_Game.cpp",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\Apple_Game.cpp",
               "RelativeDocumentMoniker": "Apple_Game\\Apple_Game.cpp",
               "ToolTip": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\Apple_Game.cpp",
               "RelativeToolTip": "Apple_Game\\Apple_Game.cpp",
-              "ViewState": "AgIAAB8AAAAAAAAAAADgvy0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAmwHwAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-19T06:59:56.913Z"
+              "WhenOpened": "2025-06-19T06:59:56.913Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 22,
               "Title": "iImage.cpp",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iImage.cpp",
               "RelativeDocumentMoniker": "Apple_Game\\std\\iImage.cpp",
@@ -418,25 +483,24 @@
               "RelativeToolTip": "Apple_Game\\std\\iImage.cpp",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-21T04:31:16.374Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-21T04:31:16.374Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "Apple.cpp",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\game\\Apple.cpp",
               "RelativeDocumentMoniker": "Apple_Game\\game\\Apple.cpp",
               "ToolTip": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\game\\Apple.cpp",
               "RelativeToolTip": "Apple_Game\\game\\Apple.cpp",
-              "ViewState": "AgIAABgAAAAAAAAAAADgvykAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAawCAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-21T04:55:07.533Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 30,
               "Title": "Apple_Game.h",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\Apple_Game.h",
               "RelativeDocumentMoniker": "Apple_Game\\Apple_Game.h",
@@ -448,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 20,
               "Title": "AppleProc.h",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\game\\AppleProc.h",
               "RelativeDocumentMoniker": "Apple_Game\\game\\AppleProc.h",
@@ -456,12 +520,11 @@
               "RelativeToolTip": "Apple_Game\\game\\AppleProc.h",
               "ViewState": "AgIAACoAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-23T13:08:15.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T13:08:15.452Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 23,
               "Title": "iImage.h",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iImage.h",
               "RelativeDocumentMoniker": "Apple_Game\\std\\iImage.h",
@@ -469,24 +532,24 @@
               "RelativeToolTip": "Apple_Game\\std\\iImage.h",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-21T04:31:27.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-21T04:31:27.023Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 14,
               "Title": "Apple.h",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\game\\Apple.h",
               "RelativeDocumentMoniker": "Apple_Game\\game\\Apple.h",
               "ToolTip": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\game\\Apple.h",
               "RelativeToolTip": "Apple_Game\\game\\Apple.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-21T04:55:07.14Z"
+              "WhenOpened": "2025-06-21T04:55:07.14Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "iString.cpp",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iString.cpp",
               "RelativeDocumentMoniker": "Apple_Game\\std\\iString.cpp",
@@ -498,7 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "iGraphics.h",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iGraphics.h",
               "RelativeDocumentMoniker": "Apple_Game\\std\\iGraphics.h",
@@ -510,7 +573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "iString.h",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iString.h",
               "RelativeDocumentMoniker": "Apple_Game\\std\\iString.h",
@@ -522,43 +585,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "iDefine.h",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iDefine.h",
               "RelativeDocumentMoniker": "Apple_Game\\std\\iDefine.h",
               "ToolTip": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iDefine.h",
               "RelativeToolTip": "Apple_Game\\std\\iDefine.h",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAowFAAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-19T07:13:15.162Z"
+              "WhenOpened": "2025-06-19T07:13:15.162Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "iShader.cpp",
-              "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iShader.cpp",
-              "RelativeDocumentMoniker": "Apple_Game\\std\\iShader.cpp",
-              "ToolTip": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iShader.cpp",
-              "RelativeToolTip": "Apple_Game\\std\\iShader.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-23T05:18:28.411Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "iShader.h",
-              "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iShader.h",
-              "RelativeDocumentMoniker": "Apple_Game\\std\\iShader.h",
-              "ToolTip": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iShader.h",
-              "RelativeToolTip": "Apple_Game\\std\\iShader.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-23T05:18:31.347Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 41,
               "Title": "xstring",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xstring",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xstring",
@@ -568,7 +608,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 33,
               "Title": "iSize.cpp",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iSize.cpp",
               "RelativeDocumentMoniker": "Apple_Game\\std\\iSize.cpp",
@@ -580,7 +620,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "iRect.h",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iRect.h",
               "RelativeDocumentMoniker": "Apple_Game\\std\\iRect.h",
@@ -592,19 +632,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 15,
               "Title": "iRect.cpp",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iRect.cpp",
               "RelativeDocumentMoniker": "Apple_Game\\std\\iRect.cpp",
               "ToolTip": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iRect.cpp",
               "RelativeToolTip": "Apple_Game\\std\\iRect.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-20T08:08:40.657Z"
+              "WhenOpened": "2025-06-20T08:08:40.657Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "iPoint.h",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iPoint.h",
               "RelativeDocumentMoniker": "Apple_Game\\std\\iPoint.h",
@@ -616,7 +657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 18,
               "Title": "iPoint.cpp",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iPoint.cpp",
               "RelativeDocumentMoniker": "Apple_Game\\std\\iPoint.cpp",
@@ -624,11 +665,12 @@
               "RelativeToolTip": "Apple_Game\\std\\iPoint.cpp",
               "ViewState": "AgIAADAAAAAAAAAAAAAAAEEAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-19T08:45:43.764Z"
+              "WhenOpened": "2025-06-19T08:45:43.764Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "iArray.h",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\std\\iArray.h",
               "RelativeDocumentMoniker": "Apple_Game\\std\\iArray.h",
@@ -640,7 +682,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 40,
               "Title": "Resource.h",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\Resource.h",
               "RelativeDocumentMoniker": "Apple_Game\\Resource.h",
@@ -652,7 +694,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 25,
               "Title": "glew.c",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\glew.c",
               "RelativeDocumentMoniker": "Apple_Game\\glew.c",
@@ -664,7 +706,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
               "Title": "Game.h",
               "DocumentMoniker": "D:\\JIHO\\Apple\\Apple\\Apple_Game\\Apple_Game\\game\\Game.h",
               "RelativeDocumentMoniker": "Apple_Game\\game\\Game.h",

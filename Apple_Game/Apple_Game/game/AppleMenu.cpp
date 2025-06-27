@@ -1,6 +1,6 @@
 #include "AppleMenu.h"
 
-#include "Apple.h"
+#include "AppleLoading.h"
 #include "AppleProc.h"
 
 iImage** imgMenuBtn;
@@ -121,6 +121,8 @@ void freeAppleMenu()
 	delete imgMenuBtn;
 }
 
+bool isStart = false;
+
 void drawAppleMenu(float dt)
 {
 	setRGBA(1, 1, 1, 1);
@@ -145,7 +147,14 @@ void drawAppleMenu(float dt)
 	
 	if (exOpen)
 		drawImage(exTex, devSize.width / 2, (devSize.height / 2) - 50, VCENTER | HCENTER);
+
+	if (isStart)
+	{
+		isStart = false;
+		setLoading(AppleStateProc, freeAppleMenu, loadAppleProc);
+	}
 }
+
 
 void keyAppleMenu(iKeyStat stat, iPoint point)
 {
@@ -163,11 +172,13 @@ void keyAppleMenu(iKeyStat stat, iPoint point)
 		else
 		{
 			printf("게임 시작\n");
-			setMakeCurrent(true);
+			isStart = true;
+			/*setMakeCurrent(true);
 			freeAppleMenu();
 			loadAppleProc();
 			setMakeCurrent(false);
-			gameState = GameStateProc;
+			gameState = GameStateProc;*/
+			
 		}
 		break;
 	case iKeyStatMoved:

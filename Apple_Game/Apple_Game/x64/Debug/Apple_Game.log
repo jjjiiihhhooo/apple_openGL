@@ -1,37 +1,18 @@
-﻿  AppleProc.cpp
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(19,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(66,16): warning C4244: '*=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(67,17): warning C4244: '*=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(68,19): warning C4244: '*=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(69,20): warning C4244: '*=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(81,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(81,15): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(87,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(87,14): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(132,23): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(132,16): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(150,43): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(150,28): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(150,19): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(150,14): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(179,40): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(179,37): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(208,37): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(208,34): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(226,9): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(228,9): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(249,10): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(251,10): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(416,22): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(416,16): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleProc.cpp(416,15): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+﻿  AppleLoading.cpp
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleLoading.cpp(85,32): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Game.cpp
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\Game.cpp(11,52): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\Game.cpp(11,37): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
 LINK : warning LNK4044: '/utf-8' 옵션을 인식할 수 없습니다. 무시됩니다.
      D:\JIHO\Apple\Apple\Apple_Game\x64\Debug\Apple_Game.lib 라이브러리 및 D:\JIHO\Apple\Apple\Apple_Game\x64\Debug\Apple_Game.exp 개체를 생성하고 있습니다.
+LINK : warning LNK4217: '__glewBlendFuncSeparate'에 정의된 'glew.obj' 기호를 함수 'Game.obj'에서 '"void __cdecl drawGame(float)" (?drawGame@@YAXM@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4286: '__glewBlendFuncSeparate'에 정의된 'glew.obj' 기호를 'iOpenGL.obj'이(가) 가져왔습니다.
+LINK : warning LNK4286: '__glewBlendFuncSeparate'에 정의된 'glew.obj' 기호를 'iStd.obj'이(가) 가져왔습니다.
 LINK : warning LNK4217: 'glewInit'에 정의된 'glew.obj' 기호를 함수 'iOpenGL.obj'에서 '"void __cdecl loadOpenGL(struct HWND__ *)" (?loadOpenGL@@YAXPEAUHWND__@@@Z)'이(가) 가져왔습니다.
 LINK : warning LNK4217: 'wglewIsSupported'에 정의된 'glew.obj' 기호를 함수 'iOpenGL.obj'에서 '"void __cdecl loadOpenGL(struct HWND__ *)" (?loadOpenGL@@YAXPEAUHWND__@@@Z)'이(가) 가져왔습니다.
-LINK : warning LNK4217: '__glewBlendFuncSeparate'에 정의된 'glew.obj' 기호를 함수 'iOpenGL.obj'에서 '"void __cdecl loadOpenGL(struct HWND__ *)" (?loadOpenGL@@YAXPEAUHWND__@@@Z)'이(가) 가져왔습니다.
-LINK : warning LNK4286: '__glewBlendFuncSeparate'에 정의된 'glew.obj' 기호를 'iStd.obj'이(가) 가져왔습니다.
 LINK : warning LNK4217: '__glewBindBuffer'에 정의된 'glew.obj' 기호를 함수 'iOpenGL.obj'에서 '"void __cdecl loadOpenGL(struct HWND__ *)" (?loadOpenGL@@YAXPEAUHWND__@@@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4286: '__glewBindBuffer'에 정의된 'glew.obj' 기호를 'iShadertoy.obj'이(가) 가져왔습니다.
 LINK : warning LNK4286: '__glewBindBuffer'에 정의된 'glew.obj' 기호를 'iStd.obj'이(가) 가져왔습니다.
 LINK : warning LNK4217: '__glewBufferData'에 정의된 'glew.obj' 기호를 함수 'iOpenGL.obj'에서 '"void __cdecl loadOpenGL(struct HWND__ *)" (?loadOpenGL@@YAXPEAUHWND__@@@Z)'이(가) 가져왔습니다.
 LINK : warning LNK4217: '__glewDeleteBuffers'에 정의된 'glew.obj' 기호를 함수 'iOpenGL.obj'에서 '"void __cdecl freeOpenGL(void)" (?freeOpenGL@@YAXXZ)'이(가) 가져왔습니다.
@@ -64,17 +45,32 @@ LINK : warning LNK4217: '__glewDeleteVertexArrays'에 정의된 'glew.obj' 기�
 LINK : warning LNK4217: '__glewGenVertexArrays'에 정의된 'glew.obj' 기호를 함수 'iOpenGL.obj'에서 '"void __cdecl loadOpenGL(struct HWND__ *)" (?loadOpenGL@@YAXPEAUHWND__@@@Z)'이(가) 가져왔습니다.
 LINK : warning LNK4217: 'glewExperimental'에 정의된 'glew.obj' 기호를 함수 'iOpenGL.obj'에서 '"void __cdecl loadOpenGL(struct HWND__ *)" (?loadOpenGL@@YAXPEAUHWND__@@@Z)'이(가) 가져왔습니다.
 LINK : warning LNK4217: '__wglewCreateContextAttribsARB'에 정의된 'glew.obj' 기호를 함수 'iOpenGL.obj'에서 '"void __cdecl loadOpenGL(struct HWND__ *)" (?loadOpenGL@@YAXPEAUHWND__@@@Z)'이(가) 가져왔습니다.
-LINK : warning LNK4217: '__glewActiveTexture'에 정의된 'glew.obj' 기호를 함수 'iStd.obj'에서 '"void __cdecl drawImage(struct Texture *,float,float,int,int,int,int,float,float,int,float,int,int)" (?drawImage@@YAXPEAUTexture@@MMHHHHMMHMHH@Z)'이(가) 가져왔습니다.
-LINK : warning LNK4217: '__glewBufferSubData'에 정의된 'glew.obj' 기호를 함수 'iStd.obj'에서 '"void __cdecl drawImage(struct Texture *,float,float,int,int,int,int,float,float,int,float,int,int)" (?drawImage@@YAXPEAUTexture@@MMHHHHMMHMHH@Z)'이(가) 가져왔습니다.
-LINK : warning LNK4217: '__glewDisableVertexAttribArray'에 정의된 'glew.obj' 기호를 함수 'iStd.obj'에서 '"void __cdecl drawImage(struct Texture *,float,float,int,int,int,int,float,float,int,float,int,int)" (?drawImage@@YAXPEAUTexture@@MMHHHHMMHMHH@Z)'이(가) 가져왔습니다.
-LINK : warning LNK4217: '__glewEnableVertexAttribArray'에 정의된 'glew.obj' 기호를 함수 'iStd.obj'에서 '"void __cdecl drawImage(struct Texture *,float,float,int,int,int,int,float,float,int,float,int,int)" (?drawImage@@YAXPEAUTexture@@MMHHHHMMHMHH@Z)'이(가) 가져왔습니다.
-LINK : warning LNK4217: '__glewGetAttribLocation'에 정의된 'glew.obj' 기호를 함수 'iStd.obj'에서 '"void __cdecl drawImage(struct Texture *,float,float,int,int,int,int,float,float,int,float,int,int)" (?drawImage@@YAXPEAUTexture@@MMHHHHMMHMHH@Z)'이(가) 가져왔습니다.
-LINK : warning LNK4217: '__glewGetUniformLocation'에 정의된 'glew.obj' 기호를 함수 'iStd.obj'에서 '"void __cdecl drawImage(struct Texture *,float,float,int,int,int,int,float,float,int,float,int,int)" (?drawImage@@YAXPEAUTexture@@MMHHHHMMHMHH@Z)'이(가) 가져왔습니다.
-LINK : warning LNK4217: '__glewUniform1f'에 정의된 'glew.obj' 기호를 함수 'iStd.obj'에서 '"void __cdecl drawLine(float,float,float,float)" (?drawLine@@YAXMMMM@Z)'이(가) 가져왔습니다.
-LINK : warning LNK4217: '__glewUniform1i'에 정의된 'glew.obj' 기호를 함수 'iStd.obj'에서 '"void __cdecl drawImage(struct Texture *,float,float,int,int,int,int,float,float,int,float,int,int)" (?drawImage@@YAXPEAUTexture@@MMHHHHMMHMHH@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewActiveTexture'에 정의된 'glew.obj' 기호를 함수 'iShadertoy.obj'에서 '"public: void __cdecl iShadertoy::paint(float)" (?paint@iShadertoy@@QEAAXM@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4286: '__glewActiveTexture'에 정의된 'glew.obj' 기호를 'iStd.obj'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewBufferSubData'에 정의된 'glew.obj' 기호를 함수 'iShadertoy.obj'에서 '"public: void __cdecl iShadertoy::paint(float)" (?paint@iShadertoy@@QEAAXM@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4286: '__glewBufferSubData'에 정의된 'glew.obj' 기호를 'iStd.obj'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewDisableVertexAttribArray'에 정의된 'glew.obj' 기호를 함수 'iShadertoy.obj'에서 '"public: void __cdecl iShadertoy::paint(float)" (?paint@iShadertoy@@QEAAXM@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4286: '__glewDisableVertexAttribArray'에 정의된 'glew.obj' 기호를 'iStd.obj'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewEnableVertexAttribArray'에 정의된 'glew.obj' 기호를 함수 'iShadertoy.obj'에서 '"public: void __cdecl iShadertoy::paint(float)" (?paint@iShadertoy@@QEAAXM@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4286: '__glewEnableVertexAttribArray'에 정의된 'glew.obj' 기호를 'iStd.obj'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewGetAttribLocation'에 정의된 'glew.obj' 기호를 함수 'iShadertoy.obj'에서 '"public: void __cdecl iShadertoy::paint(float)" (?paint@iShadertoy@@QEAAXM@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4286: '__glewGetAttribLocation'에 정의된 'glew.obj' 기호를 'iStd.obj'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewGetUniformLocation'에 정의된 'glew.obj' 기호를 함수 'iShadertoy.obj'에서 '"public: void __cdecl iShadertoy::paint(float)" (?paint@iShadertoy@@QEAAXM@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4286: '__glewGetUniformLocation'에 정의된 'glew.obj' 기호를 'iStd.obj'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewUniform1f'에 정의된 'glew.obj' 기호를 함수 'iShadertoy.obj'에서 '"private: void __cdecl iShadertoy::setUniform(float,unsigned int)" (?setUniform@iShadertoy@@AEAAXMI@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4286: '__glewUniform1f'에 정의된 'glew.obj' 기호를 'iStd.obj'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewUniform1fv'에 정의된 'glew.obj' 기호를 함수 'iShadertoy.obj'에서 '"private: void __cdecl iShadertoy::setUniform(float,unsigned int)" (?setUniform@iShadertoy@@AEAAXMI@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewUniform1i'에 정의된 'glew.obj' 기호를 함수 'iShadertoy.obj'에서 '"public: void __cdecl iShadertoy::paint(float)" (?paint@iShadertoy@@QEAAXM@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4286: '__glewUniform1i'에 정의된 'glew.obj' 기호를 'iStd.obj'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewUniform3f'에 정의된 'glew.obj' 기호를 함수 'iShadertoy.obj'에서 '"private: void __cdecl iShadertoy::setUniform(float,unsigned int)" (?setUniform@iShadertoy@@AEAAXMI@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4286: '__glewUniform3f'에 정의된 'glew.obj' 기호를 'iStd.obj'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewUniform4f'에 정의된 'glew.obj' 기호를 함수 'iShadertoy.obj'에서 '"private: void __cdecl iShadertoy::setUniform(float,unsigned int)" (?setUniform@iShadertoy@@AEAAXMI@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4286: '__glewUniform4f'에 정의된 'glew.obj' 기호를 'iStd.obj'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewUniformMatrix4fv'에 정의된 'glew.obj' 기호를 함수 'iShadertoy.obj'에서 '"public: void __cdecl iShadertoy::paint(float)" (?paint@iShadertoy@@QEAAXM@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4286: '__glewUniformMatrix4fv'에 정의된 'glew.obj' 기호를 'iStd.obj'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewUseProgram'에 정의된 'glew.obj' 기호를 함수 'iShadertoy.obj'에서 '"public: void __cdecl iShadertoy::paint(float)" (?paint@iShadertoy@@QEAAXM@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4286: '__glewUseProgram'에 정의된 'glew.obj' 기호를 'iStd.obj'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewVertexAttribPointer'에 정의된 'glew.obj' 기호를 함수 'iShadertoy.obj'에서 '"public: void __cdecl iShadertoy::paint(float)" (?paint@iShadertoy@@QEAAXM@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4286: '__glewVertexAttribPointer'에 정의된 'glew.obj' 기호를 'iStd.obj'이(가) 가져왔습니다.
 LINK : warning LNK4217: '__glewUniform2f'에 정의된 'glew.obj' 기호를 함수 'iStd.obj'에서 '"void __cdecl drawLine(float,float,float,float)" (?drawLine@@YAXMMMM@Z)'이(가) 가져왔습니다.
-LINK : warning LNK4217: '__glewUniform4f'에 정의된 'glew.obj' 기호를 함수 'iStd.obj'에서 '"void __cdecl drawLine(float,float,float,float)" (?drawLine@@YAXMMMM@Z)'이(가) 가져왔습니다.
-LINK : warning LNK4217: '__glewUniformMatrix4fv'에 정의된 'glew.obj' 기호를 함수 'iStd.obj'에서 '"void __cdecl drawImage(struct Texture *,float,float,int,int,int,int,float,float,int,float,int,int)" (?drawImage@@YAXPEAUTexture@@MMHHHHMMHMHH@Z)'이(가) 가져왔습니다.
-LINK : warning LNK4217: '__glewUseProgram'에 정의된 'glew.obj' 기호를 함수 'iStd.obj'에서 '"void __cdecl drawImage(struct Texture *,float,float,int,int,int,int,float,float,int,float,int,int)" (?drawImage@@YAXPEAUTexture@@MMHHHHMMHMHH@Z)'이(가) 가져왔습니다.
-LINK : warning LNK4217: '__glewVertexAttribPointer'에 정의된 'glew.obj' 기호를 함수 'iStd.obj'에서 '"void __cdecl drawImage(struct Texture *,float,float,int,int,int,int,float,float,int,float,int,int)" (?drawImage@@YAXPEAUTexture@@MMHHHHMMHMHH@Z)'이(가) 가져왔습니다.
   Apple_Game.vcxproj -> D:\JIHO\Apple\Apple\Apple_Game\x64\Debug\Apple_Game.exe
