@@ -19,7 +19,11 @@ int ex = -1, ey = -1;
 //====================================================
 void loadAppleProc()
 {
-	playTime = 10;
+	playTime = 120;
+	gameover = false;
+	dragApple = false;
+	sx = -1, sy = -1;
+	ex = -1, ey = -1;
 	srand(time(NULL));
 	apple = new Apple[170];
 	for (int i = 0; i < 170; i++)
@@ -384,13 +388,20 @@ void drawAppleProcUI(float dt)
 	setRGBA(0, 1, 0.58f, 1);
 	float r = takeTime / playTime;
 	if(numCountDown == 0)
-		takeTime += dt;
+	{
+		if(takeTime < playTime)
+			takeTime += dt;
+	}
 
 	if (gameover == false && takeTime >= playTime)
 	{
+		stopAudio(AudioBGM);
+		playAudio(AudioGameOver);
 		gameover = true;
 		setLoading(AppleStateResult, freeAppleProc, loadAppleResult);
 	}
+
+
 
 	setLineWidth(2);
 	drawRect(50, devSize.height - 55, 480, 7);
@@ -493,6 +504,7 @@ void drawAppleCountDown(float dt)
 	if (deltaCountDown < 0.15f) rate = 1.0f;
 	else rate = 1.0f + 1.0f * deltaCountDown;
 #endif
+
 
 	stCountDown->clean();
 	stCountDown->set("%d", numCountDown);

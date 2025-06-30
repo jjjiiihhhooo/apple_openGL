@@ -13,7 +13,7 @@ void loadApple()
 	as = AppleStateMenu;
 
 	loadAudio();
-	playAudio(3);
+	playAudio(AudioBGM);
 }
 
 void freeApple()

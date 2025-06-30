@@ -13,7 +13,7 @@ enum Audio
 	AudioBtnClr = 0,
 	AudioBtnOk,
 	AudioCountDown,
+	AudioGameOver,
 	AudioBGM,
-	AudioProcBGM,
 	AudioMax
 };

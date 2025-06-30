@@ -12,22 +12,21 @@ struct SndInfo
 void loadAudio()
 {
 	SndInfo si[5] = {
-		{ "btn0", false, 0.2f },
+		{ "button_click", false, 0.2f },
 		{ "btn1", false, 0.2f },
 		{ "countdown", false, 0.2f},
+		{ "gameover", false, 0.2f},
 		{ "bgm", true, 0.02f },
 	};
 
-	openal = new iOpenAL(4);
-	for (int i = 0; i < 4; i++)
+	openal = new iOpenAL(5);
+	for (int i = 0; i < 5; i++)
 	{
 		SndInfo* info = &si[i];
 		openal->initBuffer(i, "assets/snd/%s.wav", info->path);
 		openal->initSource(i, info->repeat);
 		openal->volume(i, info->vol);
 	}
-
-	
 }
 
 void freeAudio()
