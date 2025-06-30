@@ -103,7 +103,7 @@
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir)std;$(ProjectDir)game;$(SolutionDir)..\glm-master</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)std;$(ProjectDir)game;$(SolutionDir)..\glm-master;$(SolutionDir)..\OpenAL 1.1 SDK\include</AdditionalIncludeDirectories>
       <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
       <PreprocessorDefinitions>_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
@@ -113,6 +113,7 @@
       <IgnoreAllDefaultLibraries>
       </IgnoreAllDefaultLibraries>
       <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\OpenAL 1.1 SDK\libs\Win64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -133,9 +134,11 @@
   <ItemGroup>
     <ClInclude Include="Apple_Game.h" />
     <ClInclude Include="game\Apple.h" />
+    <ClInclude Include="game\AppleAudio.h" />
     <ClInclude Include="game\AppleLoading.h" />
     <ClInclude Include="game\AppleMenu.h" />
     <ClInclude Include="game\AppleProc.h" />
+    <ClInclude Include="game\AppleResult.h" />
     <ClInclude Include="game\Game.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="std\iArray.h" />
@@ -144,6 +147,7 @@
     <ClInclude Include="std\iFPS.h" />
     <ClInclude Include="std\iGraphics.h" />
     <ClInclude Include="std\iImage.h" />
+    <ClInclude Include="std\iOpenAL.h" />
     <ClInclude Include="std\iOpenGL.h" />
     <ClInclude Include="std\iPoint.h" />
     <ClInclude Include="std\iRect.h" />
@@ -157,9 +161,11 @@
   <ItemGroup>
     <ClCompile Include="Apple_Game.cpp" />
     <ClCompile Include="game\Apple.cpp" />
+    <ClCompile Include="game\AppleAudio.cpp" />
     <ClCompile Include="game\AppleLoading.cpp" />
     <ClCompile Include="game\AppleMenu.cpp" />
     <ClCompile Include="game\AppleProc.cpp" />
+    <ClCompile Include="game\AppleResult.cpp" />
     <ClCompile Include="game\Game.cpp" />
     <ClCompile Include="glew.c" />
     <ClCompile Include="std\iArray.cpp" />
@@ -167,6 +173,7 @@
     <ClCompile Include="std\iFPS.cpp" />
     <ClCompile Include="std\iGraphics.cpp" />
     <ClCompile Include="std\iImage.cpp" />
+    <ClCompile Include="std\iOpenAL.cpp" />
     <ClCompile Include="std\iOpenGL.cpp" />
     <ClCompile Include="std\iPoint.cpp" />
     <ClCompile Include="std\iRect.cpp" />

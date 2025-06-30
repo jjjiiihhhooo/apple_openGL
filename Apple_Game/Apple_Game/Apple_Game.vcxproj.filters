@@ -81,6 +81,15 @@
     <ClInclude Include="game\AppleLoading.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="game\AppleAudio.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="std\iOpenAL.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="game\AppleResult.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Apple_Game.cpp">
@@ -141,6 +150,15 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="game\AppleLoading.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="game\AppleAudio.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="std\iOpenAL.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="game\AppleResult.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,10 +1,14 @@
 #include "AppleProc.h"
 
+#include "AppleAudio.h"
+#include "AppleLoading.h"
+#include "AppleResult.h"
 
 Apple* apple;
 iImage* appleBgImg;
 Texture** texAppleNum;
 
+bool gameover = false;
 bool dragApple = false;
 float playTime;
 int sx = -1, sy = -1;
@@ -15,7 +19,7 @@ int ex = -1, ey = -1;
 //====================================================
 void loadAppleProc()
 {
-	playTime = 120;
+	playTime = 10;
 	srand(time(NULL));
 	apple = new Apple[170];
 	for (int i = 0; i < 170; i++)
@@ -317,6 +321,7 @@ void keyAppleProc(iKeyStat stat, iPoint point)
 				}
 
 				score->add(n);
+				playAudio(AudioBtnOk);
 			}
 			else
 			{
@@ -347,6 +352,7 @@ void loadAppleProcUI()
 	score = new Number();
 	sTex = new iStrTex(methodStUI);
 	sTex->set("0");
+	stopAudio(AudioBGM);
 	takeTime = 0.0f;
 }
 
@@ -377,8 +383,15 @@ void drawAppleProcUI(float dt)
 	score->update(dt);
 	setRGBA(0, 1, 0.58f, 1);
 	float r = takeTime / playTime;
-	takeTime += dt;
-	if(takeTime)
+	if(numCountDown == 0)
+		takeTime += dt;
+
+	if (gameover == false && takeTime >= playTime)
+	{
+		gameover = true;
+		setLoading(AppleStateResult, freeAppleProc, loadAppleResult);
+	}
+
 	setLineWidth(2);
 	drawRect(50, devSize.height - 55, 480, 7);
 	fillRect(50, devSize.height - 55, 480 * (1 - r), 7);
@@ -448,12 +461,14 @@ bool keyAppleSetting(iKeyStat stat, iPoint point)
 //====================================================
 iStrTex* stCountDown;
 int numCountDown;
+float countSound;
 float deltaCountDown;
 
 void loadAppleCountDown()
 {
 	stCountDown = new iStrTex();
 	numCountDown = 3;
+	countSound = 1.0f;
 	deltaCountDown = 0.0f;
 }
 
@@ -483,11 +498,21 @@ void drawAppleCountDown(float dt)
 	stCountDown->set("%d", numCountDown);
 	stCountDown->paint(devSize.width / 2, devSize.height / 2, VCENTER | HCENTER, rate, rate, 2, 0);
 
+	if (countSound == 1) 
+		playAudio(AudioCountDown);
+	countSound -= dt;
+
 	deltaCountDown += dt;
 	while (deltaCountDown >= 1.0f)
 	{
+
 		deltaCountDown -= 1.0f;
 		numCountDown--;
+		countSound = 1;
+
+		if (numCountDown == 0)
+			playAudio(AudioBGM);
+
 		printf("---------countDown--------\n");
 	}
 }

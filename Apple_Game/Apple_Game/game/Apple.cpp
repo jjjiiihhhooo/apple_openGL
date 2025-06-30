@@ -1,14 +1,19 @@
 #include "Apple.h"
 
+#include "AppleAudio.h"
 #include "AppleLoading.h"
 #include "AppleMenu.h"
 #include "AppleProc.h"
+#include "AppleResult.h"
 
 
 void loadApple()
 {
 	loadAppleMenu();
 	as = AppleStateMenu;
+
+	loadAudio();
+	playAudio(3);
 }
 
 void freeApple()
@@ -17,7 +22,7 @@ void freeApple()
 	{
 	case AppleStateMenu: freeAppleMenu(); break;
 	case AppleStateProc: freeAppleProc(); break;
-	case AppleStateResult: break;
+	case AppleStateResult: freeAppleResult(); break;
 	}
 }
 
@@ -27,7 +32,7 @@ void drawApple(float dt)
 	{
 	case AppleStateMenu: drawAppleMenu(dt); break;
 	case AppleStateProc: drawAppleProc(dt); break;
-	case AppleStateResult: break;
+	case AppleStateResult: drawAppleResult(dt); break;
 	}
 
 	drawAppleLoading(dt);
@@ -41,6 +46,6 @@ void keyApple(iKeyStat stat, iPoint point)
 	{
 	case AppleStateMenu: keyAppleMenu(stat, point); break;
 	case AppleStateProc: keyAppleProc(stat, point); break;
-	case AppleStateResult: break;
+	case AppleStateResult: keyAppleResult(stat, point); break;
 	}
 }

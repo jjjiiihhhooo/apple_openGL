@@ -1,5 +1,6 @@
 #include "AppleMenu.h"
 
+#include "AppleAudio.h"
 #include "AppleLoading.h"
 #include "AppleProc.h"
 
@@ -165,6 +166,7 @@ void keyAppleMenu(iKeyStat stat, iPoint point)
 	case iKeyStatBegan:
 		if (selectedMenuBtn == -1) break;
 
+		playAudio(AudioBtnClr);
 		if (selectedMenuBtn == 0)
 		{
 			exOpen = !exOpen;
@@ -191,7 +193,9 @@ void keyAppleMenu(iKeyStat stat, iPoint point)
 			}
 		}
 		if (selectedMenuBtn != j)
-			printf("sound : 버튼음\n");
+		{
+			//printf("sound : 버튼음\n");
+		}
 		selectedMenuBtn = j;
 		break;
 	case iKeyStatEnded:

@@ -13,6 +13,7 @@
 #include "iStrTex.h"
 
 #include "iOpenGL.h"
+#include "iOpenAL.h"
 #include "iFPS.h"
 #include "iShadertoy.h"
 
