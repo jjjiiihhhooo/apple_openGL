@@ -97,7 +97,6 @@ void loadAppleProc()
 	g->clean();
 
 	loadAppleProcUI();
-	loadAppleSetting();
 	loadAppleCountDown();
 }
 
@@ -111,7 +110,6 @@ void freeAppleProc()
 	delete texAppleNum;
 
 	freeAppleProcUI();
-	freeAppleSetting();
 	freeAppleCountDown();
 }
 
@@ -217,14 +215,12 @@ void drawAppleProc(float dt)
 	}
 
 	drawAppleProcUI(dt);
-	drawAppleSetting(dt);
 	drawAppleCountDown(dt);
 }
 
 void keyAppleProc(iKeyStat stat, iPoint point)
 {
-	if (keyAppleSetting(stat, point) ||
-		keyAppleCountDown(stat, point))
+	if (keyAppleCountDown(stat, point))
 		return;
 
 	switch (stat)
@@ -362,8 +358,8 @@ void loadAppleProcUI()
 
 void freeAppleProcUI()
 {
-	delete score;
 	delete sTex;
+	delete score;
 }
 
 Texture* methodStUI(const char* s)
@@ -398,6 +394,9 @@ void drawAppleProcUI(float dt)
 		stopAudio(AudioBGM);
 		playAudio(AudioGameOver);
 		gameover = true;
+
+		scoreNum = score->get();
+
 		setLoading(AppleStateResult, freeAppleProc, loadAppleResult);
 	}
 
@@ -445,26 +444,6 @@ void Number::add(int n)
 	curr = get();
 	next += n;
 	delta = 0.0f;
-}
-
-//====================================================
-// Setting
-//====================================================
-void loadAppleSetting()
-{
-}
-
-void freeAppleSetting()
-{
-}
-
-void drawAppleSetting(float dt)
-{
-}
-
-bool keyAppleSetting(iKeyStat stat, iPoint point)
-{
-	return false;
 }
 
 //====================================================

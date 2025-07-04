@@ -6,6 +6,8 @@
 #include "AppleProc.h"
 #include "AppleResult.h"
 
+extern Number* score;
+
 
 void loadApple()
 {

@@ -60,15 +60,6 @@ public:
 };
 
 //====================================================
-// Setting
-//====================================================
-
-void loadAppleSetting();
-void freeAppleSetting();
-void drawAppleSetting(float dt);
-bool keyAppleSetting(iKeyStat stat, iPoint point);
-
-//====================================================
 // CountDown
 //====================================================
 extern int numCountDown;

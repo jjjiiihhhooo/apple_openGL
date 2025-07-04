@@ -65,8 +65,10 @@ void drawAppleLoading(float dt)
 		if (delta >= _delta)
 		{
 			delta = _delta;
+			// OnPreLoad()
 			methodFree();
 			methodLoad();
+			// PostLoad()
 			as = asNext;
 		}
 	}
