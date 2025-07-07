@@ -1,8 +1,55 @@
-﻿  AppleResult.cpp
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleResult.cpp(21,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleResult.cpp(21,14): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleResult.cpp(43,28): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\game\AppleResult.cpp(43,16): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+﻿  Apple_Game.cpp
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(32,34): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(33,36): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(40,11): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(40,34): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(57,28): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(58,44): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(59,20): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(60,76): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(60,46): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(139,16): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'WPARAM'입니다.
+      D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(139,16):
+      서식 문자열에서 '%lld'을(를) 사용하는 것이 좋습니다.
+      D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(139,16):
+      서식 문자열에서 '%Id'을(를) 사용하는 것이 좋습니다.
+      D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(139,16):
+      서식 문자열에서 '%I64d'을(를) 사용하는 것이 좋습니다.
+  
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(145,32): warning C4244: '인수': 'WPARAM'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(146,32): warning C4244: '인수': 'WPARAM'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(149,16): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'WPARAM'입니다.
+      D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(149,16):
+      서식 문자열에서 '%lld'을(를) 사용하는 것이 좋습니다.
+      D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(149,16):
+      서식 문자열에서 '%Id'을(를) 사용하는 것이 좋습니다.
+      D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(149,16):
+      서식 문자열에서 '%I64d'을(를) 사용하는 것이 좋습니다.
+  
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(150,33): warning C4244: '인수': 'WPARAM'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(171,21): warning C4244: '인수': 'WPARAM'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(212,14): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(223,14): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(294,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(295,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(302,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(303,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(308,52): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(314,52): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(321,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(322,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(327,52): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(333,52): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(341,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(342,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(349,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(350,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(355,52): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(360,52): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(367,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(368,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(373,52): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\JIHO\Apple\Apple\Apple_Game\Apple_Game\Apple_Game.cpp(378,52): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 LINK : warning LNK4044: '/utf-8' 옵션을 인식할 수 없습니다. 무시됩니다.
      D:\JIHO\Apple\Apple\Apple_Game\x64\Debug\Apple_Game.lib 라이브러리 및 D:\JIHO\Apple\Apple\Apple_Game\x64\Debug\Apple_Game.exp 개체를 생성하고 있습니다.
 LINK : warning LNK4217: '__glewBlendFuncSeparate'에 정의된 'glew.obj' 기호를 함수 'Game.obj'에서 '"void __cdecl drawGame(float)" (?drawGame@@YAXM@Z)'이(가) 가져왔습니다.
